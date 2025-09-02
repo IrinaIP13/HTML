@@ -1,0 +1,30 @@
+body {
+    background-image: url("pic/1625254409_55-kartinkin-com-p-betmen-fon-krasivie-foni-58.jpg");
+    background-size: cover;
+}
+h1, h2, h6, div, img {
+    color: white;
+    text-align: center;
+}
+h6 {
+    font-size: 18px;
+    margin: 0 200px 0 200px;
+    background-color: rgba(25, 25, 25, 0.5);
+    padding: 30px;
+}
+p {
+    display: inline-block;
+    font-size: 12px;
+    width: 110px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: rgba(25, 25, 25, 0.5);
+}
+div {
+    width: 70%;
+    margin: 0 200px 0 200px;
+}
+img {
+    width: 70%;
+}
