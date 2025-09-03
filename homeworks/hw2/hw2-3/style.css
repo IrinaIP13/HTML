@@ -1,0 +1,29 @@
+
+body {
+    background-color: darkolivegreen;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.months {
+    width: 200px;
+    height: 200px;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    padding: 30px;
+    transition: 2s;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.months:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
