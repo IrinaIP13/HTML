@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial,"Alan Sans", sans-serif;
+    text-align: center;
+}
+
+P {
+    width: 80%;
+}
+
+#topBlock {
+    background-color: darksalmon;
+}
+
+#middleBlock {
+    background-color: lightblue;
+}
+
+#bottomBlock {
+    background-color: lightgreen;
+}
+
+span {
+    margin: 50px;
+    transform: rotate(90deg);
+    font-size: 5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

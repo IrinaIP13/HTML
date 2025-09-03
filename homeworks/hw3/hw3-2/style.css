@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial,"Alan Sans", sans-serif;
+    text-align: center;
+}
+
+P {
+    width: 50%;
+}
+
+.topBlock {
+    background-color: lightpink;
+}
+
+.bottomBlock {
+    background-color: black;
+    color: white;
+}
