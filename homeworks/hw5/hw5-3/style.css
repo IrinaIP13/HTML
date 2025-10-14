@@ -1,0 +1,47 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.circleLoad {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #702fcf;
+    animation: preloader 2s ease-in-out infinite alternate;
+}
+.t2 {
+    animation-delay: 0.2s;
+}
+.t3 {
+    animation-delay: 0.4s;
+}
+.t4 {
+    animation-delay: 0.6s;
+}
+.t5 {
+    animation-delay: 0.8s;
+}
+@keyframes preloader {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        background-color: gold;
+    }
+    50% {
+        translate: -30px 50px 0;
+        background-color: #5cd616;
+        transform: scale(0);
+    }
+    75% {
+        background-color: hotpink;
+    }
+    100% {
+        transform: scale(1);
+        background-color: aqua;
+    }
+}

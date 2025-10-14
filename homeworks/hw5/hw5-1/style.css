@@ -1,0 +1,20 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    border: 16px solid rgba(210, 105, 30, 0.2);
+    border-left: 16px solid chocolate;
+    border-radius: 50%;
+    animation: preloader 1s linear infinite;
+}
+@keyframes preloader {
+    from {
+        transform: rotate(-360deg);
+    }
+}
