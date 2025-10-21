@@ -1,0 +1,88 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logIn, .signUp {
+    margin: 10px auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #d8d7d7;
+}
+.form-signin {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logIn img {
+    width: 50%;
+    margin-top: 20px;
+}
+input[type='text'],
+input[type='password'] {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    background-color: rgba(216, 215, 215, 0.15);
+    border: 3px solid #d8d7d7;
+    padding: 20px;
+    font-size: 20px;
+    color: #616161;
+    text-overflow: ellipsis;
+}
+input[type='submit'] {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #60b8ff;
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.form-signin p {
+    color: #7c7c7c;
+    font-weight: bold;
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+}
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Capa_1 {
+    fill: #2448a3;
+    margin: 15px;
+}
+.facebook>a {
+    font-weight: bold;
+    font-size: 22px;
+    color: #2448a3;
+}
+.form-signin>a {
+    font-size: 20px;
+    color: #2e4680;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.signUp {
+    padding: 10px 0 10px 0;
+    font-size: 22px;
+}
+.signUp a {
+    font-weight: bold;
+    color: #60b8ff;
+}
