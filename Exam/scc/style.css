@@ -1,0 +1,309 @@
+body {
+    font-family: Plus Jakarta Sans, sans-serif;
+    color: #2B2C34;
+}
+/*------------- header --------------*/
+header {
+    width: 100%;
+    height: 86px;
+    box-shadow: 4px 6px 13px 0 #D7D7D740;
+    padding: 0 95px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    background-color: #EFF0F3;
+}
+.dasteen {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #001858;
+}
+.blog {
+    font-weight: 700;
+    font-size: 18px;
+    color: #6246EA;
+}
+ul {
+    height: 44px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+ul li {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+ul li svg {
+    margin-right: 10px;
+}
+ul button {
+    width: 213px;
+    height: 44px;
+    background-color: #6246EA;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/*------------------ main ------------------*/
+main {
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 95px;
+    background-color: #EFF0F3;
+}
+.frontEndDev {
+    width: 664px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.frontEndDev h1 {
+    width: 617px;
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: capitalize;
+}
+.frontEndDev p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #9A9494;
+    border-left: 3px solid #2B2C34;
+    padding-left: 12px;
+}
+input[type='email'] {
+    width: 444px;
+    height: 67px;
+    gap: 10px;
+    border-radius: 8px;
+    padding-top: 21px;
+    padding-right: 200px;
+    padding-bottom: 21px;
+    padding-left: 25px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+input[type='email']::placeholder {
+    color: #C0C0C0;
+}
+input[type='submit'] {
+    width: 145px;
+    height: 67px;
+    gap: 10px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-right: 23px;
+    padding-bottom: 19px;
+    padding-left: 23px;
+    background: #6246EA;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFE;
+    margin-left: 20px;
+    border: none;
+}
+main img {
+    width: 470px;
+    height: 387px;
+}
+/*--------------- section top -----------------*/
+.section_top {
+    height: 500px;
+    width: 100%;
+    padding: 67px 94px 0 94px;
+    background-color: #EFF0F3;
+}
+.text-section-top {
+    display: flex;
+    justify-content: space-between;
+}
+.text-section-top p {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.text-section-top a {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    text-transform: capitalize;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card-logo {
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background-color: #FFFFFE;
+    box-shadow: 4px 6px 13px 0 #D7D7D740;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card-blue {
+    background-color: #6246EA;
+    color: #FFFFFE;
+}
+/*--------------- section bottom ---------------*/
+
+.section_bottom {
+    padding: 80px 94px 0 94px;
+}
+.card {
+    width: 300px;
+    height: 425px;
+    border-radius: 12px;
+    box-shadow: 4px 6px 13px 0 #D7D7D740;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.photo-card {
+    width: 260px;
+    height: 198px;
+    border-radius: 12px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+.card h6 {
+    width: 260px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: 20px;
+}
+.text-autor p:first-child {
+    font-weight: 600;
+    font-size: 16px;
+}
+.text-autor p:last-child {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+/*-------------- section button -------------*/
+.section_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.button_more {
+    width: 165px;
+    height: 64px;
+    gap: 10px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-right: 23px;
+    padding-bottom: 19px;
+    padding-left: 23px;
+    background-color: #6246EA;
+    color: #FFFFFE;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+/*--------------- section subscribe -----------------*/
+.subscribe {
+    height: 453px;
+    background-color: #EFF0F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe h2{
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.subscribe p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/*-------------- footer --------------*/
+footer {
+    background-color: #E4E5E9;
+    padding: 70px 95px 50px 95px;
+}
+.grid {
+    width: 100%;
+    height: 330px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+}
+.section_grid_1 p{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.social {
+    width: 190px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_grid_2 {
+    display: flex;
+    justify-content: space-between;
+}
+.category {
+    display: grid;
+    flex-direction: column;
+    gap: 20px;
+}
+.category li {
+    font-weight: 400;
+    font-size: 18px;
+}
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.section_copyright {
+    width: 100%;
+    border-top: 1px solid #C0C0C0;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 26px;
+}
